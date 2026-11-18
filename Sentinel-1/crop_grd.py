@@ -16,8 +16,8 @@ for k, v in {
     "AWS_S3_ENDPOINT": "eodata.dataspace.copernicus.eu",
     "AWS_VIRTUAL_HOSTING": "FALSE",
     "AWS_HTTPS": "YES",
-    "AWS_SECRET_ACCESS_KEY": "hpI6ysKtrtmHIjsNCxhbcWtot4K6QDQ88r6riz8N",
-    "AWS_ACCESS_KEY_ID": "M8KKEC39PG127ZB3EULO"
+    "AWS_SECRET_ACCESS_KEY": "xxx",
+    "AWS_ACCESS_KEY_ID": "yyy"
 }.items():
     gdal.SetConfigOption(k, os.environ.get(k, v))
 
